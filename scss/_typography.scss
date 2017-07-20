@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500);
+@import url(https://fonts.googleapis.com/css?family=Raleway:800);
+
+@font-face {
+  font-family: "bitsandflashes";
+  src:url("../fonts/bitsandflashes.eot");
+  src:url("../fonts/bitsandflashes.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/bitsandflashes.woff") format("woff"),
+    url("../fonts/bitsandflashes.ttf") format("truetype"),
+    url("../fonts/bitsandflashes.svg#bitsandflashes") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+body,
+button,
+input,
+select,
+textarea {
+	color: $fontColor;
+	font-family: $bodyFont;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+body{
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $headerFont;
+    font-weight: 800;
+}
+
+p {
+	color: $fontColor;
+	font-family: $bodyFont;
+	margin-bottom: 1.5em;
+}
+
+b,
+strong {
+	font-weight: bold;
+}

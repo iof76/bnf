@@ -1,0 +1,17 @@
+/* TEAM */ 
+   Creator: Ivan Ortiz
+   Contact: ivanortizf@gmail.com
+   Contact: bitsandflashes@gmail.com   
+   Twitter: bitsandflashes 
+   From: Barcelona
+
+/* THANKS */ 
+   Nou Barris TV-Projectart, Nou Barris Imatge, Carrer, Xavier Guerrero Calduch, Marimar Laguna
+   ICONOS Anton Saputro, Elegant Themes, Freepik, Icomoon, SimpleIcon, Taras Shypka;
+
+/* SITE */ 
+   Last update: 
+   Language: Español 
+   Standars: HTML5, CSS3, JavaScript 
+   Components: jQuery 
+   Software: SublimeText2, Brackets, Gimp

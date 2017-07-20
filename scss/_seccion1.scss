@@ -1,0 +1,41 @@
+#bitsandflashes{
+    width:100%;
+    height:100vh;
+    background-image: url(../img/background.jpg);
+    display: table;
+
+    div{
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    h2{
+        color: white;
+        font-size: 2.7rem;
+        margin-bottom: 10px;
+
+        @media(min-width:500px){
+            font-size: 4rem;
+        }
+
+    }
+
+     a{
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        padding:10px;
+        color: white;
+        border: 1px solid #FFF;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+
+
+        &:hover{
+            background-color:#F6F6F6;
+            color:#222;
+        }
+    }
+}

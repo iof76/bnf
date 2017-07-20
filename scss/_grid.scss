@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------
+Grid
+--------------------------------------------------------------*/
+
+.un_uno{
+	width: calc(100% - 3em);
+
+	@media (min-width: 35em) {
+		width: calc(100% - 3em);
+	}
+}
+
+.un_medio{
+	width: calc(100% - 3em);
+
+	@media (min-width: 35em) {
+		width:calc(50% - 2.5em);
+	}
+}
+
+.un_tercio {
+	width: calc(100% - 3em);
+
+	@media (min-width: 35em) {
+		width:calc(33% - 2.25em);
+	}
+}

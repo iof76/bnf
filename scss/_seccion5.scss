@@ -1,0 +1,49 @@
+#contacta{ 
+    background-color: #EB6021;
+    color: white;
+
+    .wrap{
+        position:relative;
+
+    }
+
+    #form{
+        margin-left: 40px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        width:45%;
+    }
+
+    h3{
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+    }
+
+    label span{
+        display: block;
+        padding: 5px 0px 5px 5px;
+    }
+
+    & input, & textarea{
+        width:350px;
+        border-radius: 3px;
+        padding:5px;
+    }
+
+    .social{
+        position:absolute;
+        right:0px;
+        bottom:0px;
+
+        li{
+            display: inline-block;
+            list-style: none;
+            width:35px;
+        }
+
+        img{
+           width:100%;
+        }
+    }
+
+}

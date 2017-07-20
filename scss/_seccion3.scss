@@ -1,0 +1,123 @@
+#proyectos{
+    background-color: #FAF9F8;
+    height: 490px;
+    color: white;
+    padding: 60px 0;
+
+	ul{
+	    margin: 0 auto;
+	    max-width: 860px;
+	    max-height: 400px;
+
+	    li{
+ 		   display: inline-block;
+    		list-style: none;
+		}
+	}
+}
+
+.wrap-items-m, .wrap-items-p, .wrap-items-t{
+
+    text-align: center;
+
+    .arrow{
+        font-family: 'bitsandflashes';
+        font-size: 6rem;
+        color: #EB6021;
+        cursor:pointer;
+    }
+}
+
+
+.wrap-items-m{
+    .item{
+        display:block;
+        margin: 0 auto;
+    }
+}
+
+
+
+.wrap-items-p, .wrap-items-t{
+    div{
+        display:inline-block;
+        vertical-align:top;
+
+    }
+
+    .item-arrow-v{
+        height: 475px;
+        padding-top: 160px;
+    }
+}    
+
+
+
+/*
+ * N3: Imagenes Hover
+ *********************************************/
+.item {
+    text-align:center;
+    margin:5px;
+    position:relative;          
+}
+
+    .item,
+    .item-hover,
+    .item-hover .mask,
+    .item-img,
+    .item-info {
+        width: 200px;
+        height: 150px;                      
+    }
+
+    .item-hover,
+    .item-hover .mask,
+    .item-img { 
+        position:absolute;
+        top:0;
+        left:0;         
+    }           
+
+    .item-hover {   
+        z-index:1;  
+        -webkit-transition: all 900ms ease-out;
+        -moz-transition: all 900ms ease-out;
+        -o-transition: all 900ms ease-out;
+        transition: all 900ms ease-out; 
+        opacity:0;
+        cursor:pointer;     
+        display:block;
+        text-decoration:none;
+        text-align:center;                              
+    }
+    
+    .item-info {
+        z-index:2;
+        display:table;
+        position:relative;                                  
+    }
+    
+    .item-info .headline {
+        font-size:15px;
+        font-weight: 500;
+        margin:0 auto;
+        display: table-cell;
+        vertical-align:middle;   
+        color:white;   
+    }
+        
+    .item-hover .mask {
+        background-color:#111;
+        opacity:0.6;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        filter: alpha(opacity=50);                  
+    }
+    
+    .item-hover:hover {
+        opacity:1;
+    }                                          
+    
+    .item-img {         
+        background-color:#DDD;
+    }   
